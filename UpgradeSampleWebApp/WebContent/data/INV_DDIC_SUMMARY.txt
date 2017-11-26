@@ -1,0 +1,9 @@
+key	value
+Domain	50
+Data Element	538
+Lock Object	2
+Search Help	1
+Structure	178
+Table	70
+Table Type	65
+View	13

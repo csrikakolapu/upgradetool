@@ -1,0 +1,43 @@
+<header>
+<!-- 
+<section class="top-navigation col-xs-12">
+ <div class="pull-left col-xs-8">UI Design</div>
+ <div class="pull-right col-xs-4">
+	<div class="col-xs-6">Welcome Mr.Blah</div>
+	<div class="col-xs-6"> Log out</div>
+ </div>
+ 
+</section> -->
+
+<nav class="navbar navbar-default navbar-static-top navbackground col-xs-12" role="navigation" ng-controller="navController">
+	
+ 
+	  <ul class = "nav logo-navbar-nav col-xs-12">
+		 <li class="col-xs-4">
+			<a>
+				<span><img src="/icons/brand.svg" alt="Deloitte" width="135" height="20"/></span>
+			</a>
+		 </li>
+		 
+		
+		<li class="col-xs-4 tool-logo text-center padding-top-5">
+			<span><img src="/icons/toolLogo.png" alt="Uplgrade Analyzer "/></span>
+		</li>
+		<li class="col-xs-4 pull-right client-section">
+			<a><div class="pull-right">Hi , {{clientName}} !!</div></a>
+		</li>
+		
+		
+	  </ul> 
+	  <ul class = "nav navbar-nav col-xs-12 clear-both">
+		 <li class = "nav-tab" ng-class="getClass('/'+menuItem.TABID)" ng-repeat="menuItem in navItems">
+			<a  href = "{{'/'+menuItem.TABID}}">
+				<i  class="fa  pull-left fa-2x fa-{{menuItem.ICON}}"></i>
+				<span >{{menuItem.TABNAME}}</span>
+			</a>
+			</li>
+			
+			
+	  </ul>
+</nav>
+</header>

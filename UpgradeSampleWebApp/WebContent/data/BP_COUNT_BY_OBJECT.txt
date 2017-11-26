@@ -1,0 +1,11 @@
+key 	value
+
+Sales and Distribution	33
+
+Material Management	24
+
+Finance and Controlling	8
+
+Production planning	20
+
+

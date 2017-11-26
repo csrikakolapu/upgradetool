@@ -1,0 +1,17 @@
+.iA-container {
+  background-color: #fff; }
+  .iA-container .totals-container {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .iA-container .totals-container .totals-numeric {
+      font-size: 36px; }
+    .iA-container .totals-container .totals-text {
+      font-weight: 200;
+      font-size: 16px; }
+  .iA-container .ia-chart-column {
+    min-height: 300px;
+    border: 1px solid #dcd8d8; }
+  .iA-container .count {
+    font-size: 36px; }
+  .iA-container g.nv-slice {
+    cursor: pointer; }

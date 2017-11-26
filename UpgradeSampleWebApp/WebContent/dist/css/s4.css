@@ -1,0 +1,12 @@
+.s4-container {
+  background-color: #fff; }
+  .s4-container .totals-container {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .s4-container .totals-container .totals-numeric {
+      font-size: 36px; }
+    .s4-container .totals-container .totals-text {
+      font-weight: 200;
+      font-size: 16px; }
+  .s4-container .table-container {
+    margin-top: 20px; }

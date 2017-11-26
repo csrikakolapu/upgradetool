@@ -1,0 +1,13 @@
+.bp-container {
+  background-color: #fff; }
+  .bp-container .bp-column {
+    border-bottom: 2px solid #dcd8d8;
+    border-right: 2px solid #dcd8d8;
+    padding: 15px;
+    height: auto;
+    overflow: hidden;
+    height: 320px; }
+    .bp-container .bp-column .center-section .count {
+      font-size: 7em;
+      font-weight: bold;
+      color: rgba(73, 112, 160, 0.88); }

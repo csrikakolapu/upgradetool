@@ -1,0 +1,4 @@
+key	value	color
+TOTAL	90	green
+SUPPORTED	40	blue
+NOT-SUPPORTED	30	red

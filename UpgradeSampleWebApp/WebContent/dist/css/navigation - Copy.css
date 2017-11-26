@@ -1,0 +1,38 @@
+/*
+.top-navigation {
+	background-color:$top-nav-bg-color;
+	color:$nav-font-color;
+	padding:15px 60px;
+	
+}
+*/
+.navbar-default {
+  position: relative;
+  padding: 0; }
+  .navbar-default .navbar-header {
+    background: rgba(52, 201, 246, 0.88);
+    color: #fff; }
+  .navbar-default .navbar-brand {
+    color: #fff !important; }
+  .navbar-default .navbar-nav {
+    background: #3e5d7c; }
+    .navbar-default .navbar-nav > li.nav-tab > a, .navbar-default .navbar-nav > li.nav-tab > a:hover, .navbar-default .navbar-nav > li.nav-tab > a:focus {
+      color: #fff;
+      padding: 15px 30px;
+      background-color: transparent; }
+    .navbar-default .navbar-nav > li.nav-tab.active {
+      background: #514d4d; }
+      .navbar-default .navbar-nav > li.nav-tab.active + .sub-nav {
+        display: block; }
+  .navbar-default .sub-nav {
+    padding: 15px 60px;
+    position: absolute;
+    bottom: -48px;
+    display: none;
+    background: #514d4d;
+    left: 0; }
+    .navbar-default .sub-nav li {
+      display: inline-block;
+      list-style: none; }
+      .navbar-default .sub-nav li a {
+        color: #fff; }

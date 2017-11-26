@@ -1,0 +1,257 @@
+$primary-color: #A37;
+$header-color: #000;
+
+$bg-color: #fff;
+$nav-font-color :#000; 
+
+
+$border-grey:#dcd8d8;
+$border-blue: #3e5d7c;
+$border-green: #22901f;
+$border-red: #d04531;
+$border-yellow: #f0f78b;
+
+$brand-color1:#000;
+$brand-color2:#86bc25;
+
+
+#title {
+	  color: $primary-color;
+}
+
+h1 { 
+	text-align: left;
+	color: $header-color;
+ }
+
+body{
+	background-color:#000;
+	font-family:"OpenSans", "Tahoma", "Helvetica Neue", "Arial";
+}
+.container {
+  width: 100%;
+  padding: 3px;
+  position:relative;
+}
+.view-container{
+	background-color:#fff;
+	height: 100vh;
+}
+
+
+.no-padding{
+	padding:0;
+}
+.clear-both{
+	clear:both;
+}
+.text-center{
+	text-align:center;
+}
+.text-right{
+	text-align:right;
+}
+.no-border{
+	border:none !important;
+}
+.border-right{
+	border-right:1px solid $border-grey;
+}
+.border-bottom{
+	border-bottom:1px solid $border-grey;
+}
+.margin-15{
+	margin:15px;
+}
+.padding-top-10{
+	padding-top:10px;
+}
+.padding-top-5{
+	padding-top:5px;
+}
+td{
+	padding:10px;
+	
+}
+td:last-child{
+	border:none;	
+}
+tr:nth-child(even) {
+    background-color: #f9f6f6;
+}
+
+tr:nth-child(odd) {
+     background-color: #ffffff;
+}
+.status-blue{
+	border-left: 4px solid $border-blue;
+}
+.status-red{
+	border-left: 4px solid $border-red;
+}
+.status-green{
+
+	border-left: 4px solid $border-green;
+}
+.status-yellow{
+	border-left: 4px solid $border-yellow;
+}
+.switch-block-container{
+	 border: 1px solid $border-grey;
+    border-radius: 5px;
+}
+.switch-block{
+	padding: 5px;
+	color:$brand-color2;
+   
+}
+.switch-block.active{
+	color:$bg-color;
+	background-color:$brand-color2;
+}
+.table-container{
+	position:relative;
+	.center-section{
+	    overflow: scroll;
+	    max-height: 600px;
+	}
+	table{
+		border:1px solid $border-grey;
+    	thead{
+    		tr{
+    			text-align: center;
+    			font-weight: 600;
+    			border-bottom:4px solid $border-grey;
+    		}
+    	}
+    }
+    .search-selector{
+    	margin: 30px 0;
+    	>span{
+    		margin-right: 10px;
+    	}
+    	select{
+    		border-radius: 5px;
+    		padding: 5px 0;
+    		border-color: $border-grey;
+    	}
+    	input{
+    		border-radius: 5px;
+		    border-style: solid;
+		    border-width: 1px;
+		    border-color: $border-grey;
+		    padding: 5px 0;
+    	}
+    }
+}
+.table-toggler{
+	.btn-primary{
+		background-color:$brand-color2;
+		border-color:$brand-color2;
+	}
+}
+.align-center{
+	left: 40%;
+	position:absolute;
+}
+
+::-webkit-scrollbar {
+    width: 0.45em;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px $brand-color1;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #777777;
+  outline: 4px solid $brand-color1;
+  border-radius:5px;
+}
+.tabular-data {
+	max-height: 280px;
+    overflow: auto;
+	table{
+		width: 100%;
+	}
+}
+
+.nv-discreteBarWithAxes {
+	> g{ 
+  		transform : translate(70px,15px);
+	}
+	.nv-x.nv-axis .tick text{
+      transform: rotate(-45deg);
+    }
+}
+/*.loader-container{
+	position: relative;
+	.loader{
+		font-size: 24px;
+	    z-index: 1001;
+	    height: 100%;
+	    width: 100%;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    display: none;
+	    background: rgba(240,242,244,.8);
+
+	    &:before{
+	    	display: block;
+		    width: 36px;
+		    height: 36px;
+		    background: url(../icons/icon-loading.svg) no-repeat;
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    margin-top: -18px;
+		    margin-left: -18px;
+		    content:' ';
+	    }
+	}
+	&.show-loader .loader{
+		display: block;
+	}
+}*/
+
+.loader-container{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #fff;
+	z-index: 10001;
+	height: 100%;
+	width: 100%;
+	opacity: 0.94;
+	.loader-message{
+		background: url("../../icons/loading.gif") 0 0 no-repeat;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    width: 200px;
+	    height: 200px;
+	}
+}
+
+.graph-box{
+	height: 350px;
+	border: 1px solid $border-grey;
+	.center-section{
+		padding-top: 10px;
+	}
+}
+.graph-label-container{
+	padding: 30px 0;
+}
+
+.nvd3.nv-pie .clicked path{
+	fill-opacity: 1;
+}
+
+@import "font-awesome.css";
+@import "navigation.scss";
+@import "bp.scss";
+
+@import "impactAnalysis.scss";
+@import "s4.scss";

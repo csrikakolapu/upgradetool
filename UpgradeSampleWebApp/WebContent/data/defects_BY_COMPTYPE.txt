@@ -1,0 +1,4 @@
+key 	value              
+MSGTYP	56          
+Enhancements	78
+Programs	90       

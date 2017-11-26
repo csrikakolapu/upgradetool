@@ -1,0 +1,56 @@
+[0820/172511.991:ERROR:main_dll_loader_win.cc(124)] Failed to load NW DLL from C:\Users\ssupraja\Desktop\ReportsTool\nw.dll: The specified module could not be found. (0x7E)
+[0820/172526.645:ERROR:main_dll_loader_win.cc(124)] Failed to load NW DLL from C:\Users\ssupraja\Desktop\ReportsTool\nw.dll: The specified module could not be found. (0x7E)
+[0820/172646.952:FATAL:v8_initializer.cc(167)] Failed to open V8 file 'C:\Users\ssupraja\Desktop\ReportsTool\natives_blob.bin' (reason: -4)
+Backtrace:
+	v8::internal::ParserBase<v8::internal::Parser>::stack_overflow [0x00007FFA1EDE7C21+145041]
+	v8::internal::interpreter::BytecodeArrayWriter::constant_array_builder [0x00007FFA1ED70B7A+346378]
+	v8::internal::LookupIterator::index [0x00007FFA1FA005AF+77311]
+	v8::internal::LookupIterator::index [0x00007FFA1FA002CA+76570]
+	v8::internal::LookupIterator::index [0x00007FFA1FA0006C+75964]
+	v8::internal::compiler::Schedule::GetBlockById [0x00007FFA1EA7C5BC+609532]
+	v8::internal::compiler::Schedule::GetBlockById [0x00007FFA1EA7BE11+607569]
+	ChromeMain [0x00007FFA1D916B5C+236]
+	(No symbol) [0x00007FF71C9B59B4]
+	(No symbol) [0x00007FF71C9B2CFF]
+	IsSandboxedProcess [0x00007FF71CA1C053+138819]
+	BaseThreadInitThunk [0x00007FFA935A8364+20]
+	RtlUserThreadStart [0x00007FFA936B70D1+33]
+
+[0820/172647.147:ERROR:process_info.cc(608)] range at 0x898e2be200000000, size 0x2ba fully unreadable
+[0820/172647.147:ERROR:process_info.cc(608)] range at 0x898e2c0200000000, size 0x2ba fully unreadable
+[0820/172647.147:ERROR:process_info.cc(608)] range at 0x0, size 0x2ba fully unreadable
+[0820/172647.163:WARNING:in_range_cast.h(38)] value 3000195175306 out of range
+[0820/172647.163:WARNING:in_range_cast.h(38)] value 3000195177892 out of range
+[0820/172647.163:WARNING:in_range_cast.h(38)] value 3000195175160 out of range
+[0820/172647.163:WARNING:in_range_cast.h(38)] value 3000195173790 out of range
+[0820/172804.314:FATAL:v8_initializer.cc(167)] Failed to open V8 file 'C:\Users\ssupraja\Desktop\ReportsTool\natives_blob.bin' (reason: -4)
+Backtrace:
+	v8::internal::ParserBase<v8::internal::Parser>::stack_overflow [0x00007FFA1EDE7C21+145041]
+	v8::internal::interpreter::BytecodeArrayWriter::constant_array_builder [0x00007FFA1ED70B7A+346378]
+	v8::internal::LookupIterator::index [0x00007FFA1FA005AF+77311]
+	v8::internal::LookupIterator::index [0x00007FFA1FA002CA+76570]
+	v8::internal::LookupIterator::index [0x00007FFA1FA0006C+75964]
+	v8::internal::compiler::Schedule::GetBlockById [0x00007FFA1EA7C5BC+609532]
+	v8::internal::compiler::Schedule::GetBlockById [0x00007FFA1EA7BE11+607569]
+	ChromeMain [0x00007FFA1D916B5C+236]
+	(No symbol) [0x00007FF71C9B59B4]
+	(No symbol) [0x00007FF71C9B2CFF]
+	IsSandboxedProcess [0x00007FF71CA1C053+138819]
+	BaseThreadInitThunk [0x00007FFA935A8364+20]
+	RtlUserThreadStart [0x00007FFA936B70D1+33]
+
+[0820/172804.418:ERROR:process_info.cc(608)] range at 0x30322be200000000, size 0x1cb fully unreadable
+[0820/172804.419:ERROR:process_info.cc(608)] range at 0x30322c0200000000, size 0x1cb fully unreadable
+[0820/172804.419:ERROR:process_info.cc(608)] range at 0x0, size 0x1cb fully unreadable
+[0820/172804.453:WARNING:in_range_cast.h(38)] value 1972198751818 out of range
+[0820/172804.453:WARNING:in_range_cast.h(38)] value 1972198754404 out of range
+[0820/172804.453:WARNING:in_range_cast.h(38)] value 1972198751672 out of range
+[0820/172804.453:WARNING:in_range_cast.h(38)] value 1972198750302 out of range
+[1118/215217.677:ERROR:process_info.cc(608)] range at 0x8b445fd200000000, size 0x280 fully unreadable
+[1118/215217.688:ERROR:process_info.cc(608)] range at 0x8b445ff200000000, size 0x280 fully unreadable
+[1118/215217.689:ERROR:process_info.cc(608)] range at 0x0, size 0x280 fully unreadable
+[1118/215217.722:WARNING:in_range_cast.h(38)] value 2751115566980 out of range
+[1118/215217.722:WARNING:in_range_cast.h(38)] value 2751115562540 out of range
+[1118/215217.722:WARNING:in_range_cast.h(38)] value 2751115563122 out of range
+[1118/215217.722:WARNING:in_range_cast.h(38)] value 108084205055182070 out of range
+[1118/215217.722:WARNING:in_range_cast.h(38)] value 2751116400256 out of range
